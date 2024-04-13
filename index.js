@@ -37,8 +37,6 @@ window.onload = () => {
             if(!inserted) {
                 points.push([x, y]);
             }
-
-            console.log(points)
         } else {
             if(points.length === 0) {
                 return
